@@ -4,6 +4,7 @@
   "title": "Blueprint Book Shelf",
   "author": "tsyklop",
   "factorio_version": "2.1",
+  "homepage": "https://github.com/Tsyklop/blueprint-book-shelf",
   "dependencies": ["base >= 2.1.23"],
   "description": "An inventory-book panel: hold a blueprint or book, hover over a destination book in the panel and press Shift to move it inside. Includes nested books, search and configurable controls."
 }

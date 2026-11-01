@@ -26,3 +26,7 @@ Open the shelf with **Ctrl+Shift+B** or the top-left book button. Pick up an inv
 The shelf lists main-inventory books and their descendants, with parent paths and direct item counts. Search filters names/paths (ASCII case-insensitive; other text uses exact case). The list updates on inventory/cursor changes; Refresh also picks up changes made by other mods. Only physical inventory items are supported; blueprint-library references must first become inventory items.
 
 Open Book Inserter may be installed alongside this mod. Their Shift actions resolve different targets.
+
+## Source code
+
+[GitHub repository](https://github.com/Tsyklop/blueprint-book-shelf)
