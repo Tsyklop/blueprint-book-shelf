@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-10-29
+  Features:
+    - Non-modal inventory-book panel with nested paths, counts, search and refresh.
+    - Hover over a destination row and press Shift to move the held blueprint or book.
+    - Preserve item data; reject stale destinations and recursive transfers.
+    - English and Russian translations, configurable panel and transfer controls.

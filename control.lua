@@ -1,0 +1,12 @@
+local app = require("__BlueprintBookShelf__/scripts/app")
+
+script.on_init(app.on_init)
+script.on_configuration_changed(app.on_configuration_changed)
+script.on_event("bbs-toggle", app.on_toggle)
+script.on_event("bbs-insert", app.on_input)
+script.on_event(defines.events.on_gui_click, app.on_click)
+script.on_event(defines.events.on_gui_text_changed, app.on_search)
+script.on_event(defines.events.on_player_created, app.on_player_created)
+script.on_event(defines.events.on_player_main_inventory_changed, app.on_inventory_changed)
+script.on_event(defines.events.on_player_cursor_stack_changed, app.on_inventory_changed)
+script.on_event(defines.events.on_player_removed, app.on_player_removed)
